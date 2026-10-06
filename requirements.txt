@@ -1,0 +1,9 @@
+# AR523 Assignment 2 -- Force-Controlled Writing & Material Identification
+# Install all dependencies with: pip install -r requirements.txt
+#
+# IMPORTANT: pybullet is compiled against NumPy 1.x.
+# NumPy 2.x will cause an ImportError at startup. Pin numpy<2.
+
+pybullet>=3.2.6
+numpy>=1.24,<2.0
+matplotlib>=3.7
